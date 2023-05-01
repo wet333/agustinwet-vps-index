@@ -1,0 +1,48 @@
+body {
+    font-size: 18px;
+    font-family: system-ui, sans-serif;
+    color: #ededed;
+    background: #161616;
+}
+
+a {
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: rgb(153, 189, 255);
+    text-decoration: underline;
+}
+
+ul {
+    list-style: disc;
+}
+
+p {
+    line-height: 1.8rem;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+
+    width: 75vw;
+    margin: 4rem auto;
+}
+
+.aboutme-wrapper {
+    padding: 1rem 0;
+}
+
+.techstack-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 1rem 2rem;
+}
+
+.workexp-wrapper {
+    padding: 1rem 2rem;
+}
