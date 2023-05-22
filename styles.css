@@ -5,6 +5,12 @@ body {
     background: #161616;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
 a {
     color: cornflowerblue;
 }
@@ -42,30 +48,8 @@ h2 {
 }
 
 .tech-stack-list {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
     padding: 1rem 0;
-}
-
-/* CSS for larger screens */
-@media (min-width: 768px) {
-    .main-container {
-        width: 75vw;
-        margin: 4rem auto;
-    }
-
-    section {
-        margin-bottom: 3rem;
-    }
-
-    h2 {
-        margin-bottom: 1rem;
-    }
-
-    .tech-stack-list {
-        flex-direction: row;
-        gap: 2rem;
-        padding: 1rem 0;
-    }
 }
