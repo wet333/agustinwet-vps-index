@@ -16,6 +16,7 @@ a:hover {
 
 ul {
     list-style: disc;
+    list-style-position: inside;
 }
 
 p {
@@ -32,17 +33,39 @@ p {
     margin: 4rem auto;
 }
 
-.aboutme-wrapper {
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.tech-stack-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
     padding: 1rem 0;
 }
 
-.techstack-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    padding: 1rem 2rem;
-}
+/* CSS for larger screens */
+@media (min-width: 768px) {
+    .main-container {
+        width: 75vw;
+        margin: 4rem auto;
+    }
 
-.workexp-wrapper {
-    padding: 1rem 2rem;
+    section {
+        margin-bottom: 3rem;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    .tech-stack-list {
+        flex-direction: row;
+        gap: 2rem;
+        padding: 1rem 0;
+    }
 }
