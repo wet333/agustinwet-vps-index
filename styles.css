@@ -54,10 +54,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.tech-stack-list {
-    padding: 1rem 0;
-}
-
 .tech-stack-list ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
