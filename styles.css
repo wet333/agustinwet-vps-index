@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 html {
     font-size: 16px;
+    font-family: 'Open sans', sans-serif;
 }
 
 body {
     font-size: 1.1rem;
-    font-family: system-ui, sans-serif;
     color: #ededed;
     background: #161616;
 }
@@ -13,6 +15,7 @@ header {
     display: flex;
     margin: 2rem auto;
     width: 75vw;
+    max-width: 800px;
     flex-direction: column;
 }
 
@@ -26,6 +29,7 @@ header a {
     flex-direction: column;
     align-content: center;
     width: 75vw;
+    max-width: 800px;
     margin: 4rem auto;
 }
 
@@ -50,6 +54,8 @@ header a {
     }
 }
 
+/* General styles */
+
 a {
     color: cornflowerblue;
 }
@@ -64,16 +70,53 @@ ul {
     list-style-position: inside;
 }
 
-p {
-    line-height: 1.8rem;
+.w-bolder {
+    font-weight: 700;
 }
+.w-bold {
+    font-weight: 500;
+}
+.w-normal {
+    font-weight: 400;
+}
+.w-thin {
+    font-weight: 300;
+}
+.note {
+    font: caption;
+    color: #afafaf;
+    padding-left: 0.5rem;
+}
+
+/* Specific styles */
 
 section {
     margin-bottom: 3rem;
 }
 
-h2 {
+.section-title {
     margin-bottom: 1rem;
+}
+.section-title::before {
+    content: "# ";
+}
+
+.text-contents {
+    line-height: 1.9rem;
+    color: #afafaf;
+    letter-spacing: 0.125px;
+}
+
+.job-title {
+    margin: 8px 0px;
+}
+
+.contact-item {
+    display: flex;
+    padding: 0.5rem 0;
+    gap: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .tech-stack-list ul {

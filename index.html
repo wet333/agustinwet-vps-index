@@ -6,6 +6,9 @@
     <meta name="keywords" content="Agustin Wet, Agustin Wet Web Developer, Agustin Wet Portfolio, Agustin Wet Skills, Agustin Wet Fullstack, Agustin, Wet, Agustin Wet Front-End Developer, Agustin Wet Back-End Developer, Agustin Wet Full-Stack Developer">
     
     <!-- Styles (the normalize.css must be the first) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css">
 
@@ -53,22 +56,28 @@
 
     <header>
         <h1>Agustin Wet - Fullstack Web Developer</h1>
-        <p>Email:</p><a href="mailto:wet.4gustin@gmail.com">wet.4gustin@gmail.com</a><br>
-        <p>Github:</p><a href="https://github.com/wet333">github.com/wet333</a><br>
-        <p>Linkedin:</p><a href="https://www.linkedin.com/in/agustinwetdeveloper/">www.linkedin.com/in/agustinwetdeveloper</a>
+        <div class="contact-item">
+            <p>Email:</p><a href="mailto:wet.4gustin@gmail.com">wet.4gustin@gmail.com</a>
+        </div>
+        <div class="contact-item">
+            <p>Github:</p><a href="https://github.com/wet333">github.com/wet333</a>
+        </div>
+        <div class="contact-item">
+            <p>Linkedin:</p><a href="https://www.linkedin.com/in/agustinwetdeveloper/">www.linkedin.com/in/agustinwetdeveloper</a>
+        </div>
     </header>
 
     <main class="main-container">
 
         <section id="about">
-            <h2>About Me</h2>
-            <p>
+            <h2 class="section-title w-normal">About Me</h2>
+            <p class="text-contents w-thin">
                 As a self-taught and curious individual, I am deeply passionate about technology and constantly seek to expand my knowledge of software and hardware. I have professional experience in Java and React, I am looking forward to continue growing as a developer and tackling new challenges in the field.
             </p>
         </section>
 
         <section id="tech-stack">
-            <h2>Tech Stack</h2>
+            <h2 class="section-title w-normal">Tech Stack</h2>
             <div class="tech-stack-list">
                 <ul>
                     <li>Java</li>
@@ -85,10 +94,10 @@
         </section>
 
         <section id="work-experience">
-            <h2>Work experience</h2>
+            <h2 class="section-title w-normal">Work experience</h2>
             <article>
-                <h3><a href="https://www.technisys.com/">Technisys</a> (since 2021)</h3>
-                <p>
+                <h3 class="job-title w-normal"><a href="https://www.technisys.com/">Technisys</a><span class="note">(since 2021)</span></h3>
+                <p class="text-contents w-thin">
                     I have been working as a Fullstack Web Developer. In this role, I work on the back-end using Java and the front-end using React.js to develop a homebanking application for one of the largest banks in Argentina. My responsibilities include developing and implementing new features, as well as fixing bugs. Our team follow an agile methodology, which allows us to be flexible and adaptable to changes in the project requirements.
                 </p>
             </article>
