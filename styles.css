@@ -1,8 +1,23 @@
+html {
+    font-size: 16px;
+}
+
 body {
-    font-size: 18px;
+    font-size: 1rem;
     font-family: system-ui, sans-serif;
     color: #ededed;
     background: #161616;
+}
+
+header {
+    display: flex;
+    margin: 2rem auto;
+    width: 75vw;
+    flex-direction: column;
+}
+
+header a {
+    overflow-wrap: anywhere;
 }
 
 .main-container {
@@ -16,7 +31,14 @@ body {
 
 @media (max-width: 600px) {
     body {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    header {
+        display: flex;
+        margin: 0;
+        padding: 2rem;
+        flex-direction: column;
     }
 
     .main-container {
