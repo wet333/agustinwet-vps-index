@@ -54,55 +54,64 @@
 </head>
 <body>
 
-    <header>
-        <h1>Agustin Wet - Fullstack Web Developer</h1>
-        <div class="contact-item">
-            <p>Email:</p><a href="mailto:wet.4gustin@gmail.com">wet.4gustin@gmail.com</a>
-        </div>
-        <div class="contact-item">
-            <p>Github:</p><a href="https://github.com/wet333">github.com/wet333</a>
-        </div>
-        <div class="contact-item">
-            <p>Linkedin:</p><a href="https://www.linkedin.com/in/agustinwetdeveloper/">www.linkedin.com/in/agustinwetdeveloper</a>
-        </div>
-    </header>
+    <canvas id="background"></canvas>
 
-    <main class="main-container">
+    <div id="page-contents">
 
-        <section id="about">
-            <h2 class="section-title w-normal">About Me</h2>
-            <p class="text-contents w-thin">
-                As a self-taught and curious individual, I am deeply passionate about technology and constantly seek to expand my knowledge of software and hardware. I have professional experience in Java and React, I am looking forward to continue growing as a developer and tackling new challenges in the field.
-            </p>
-        </section>
-
-        <section id="tech-stack">
-            <h2 class="section-title w-normal">Tech Stack</h2>
-            <div class="tech-stack-list">
-                <ul>
-                    <li>Java</li>
-                    <li>Javascript + Node.js</li>
-                    <li>React.js</li>
-                    <li>SQL</li>
-                    <li>Git</li>
-                    <li>Docker - Docker Compose</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Typescript</li>
-                </ul>
+        <header>
+            <h1>Agustin Wet - Fullstack Web Developer</h1>
+            <div class="contact-item">
+                <p>Email:</p><a href="mailto:wet.4gustin@gmail.com">wet.4gustin@gmail.com</a>
             </div>
-        </section>
-
-        <section id="work-experience">
-            <h2 class="section-title w-normal">Work experience</h2>
-            <article>
-                <h3 class="job-title w-normal"><a href="https://www.technisys.com/">Technisys</a><span class="note">(since 2021)</span></h3>
+            <div class="contact-item">
+                <p>Github:</p><a href="https://github.com/wet333">github.com/wet333</a>
+            </div>
+            <div class="contact-item">
+                <p>Linkedin:</p><a href="https://www.linkedin.com/in/agustinwetdeveloper/">www.linkedin.com/in/agustinwetdeveloper</a>
+            </div>
+        </header>
+    
+        <main class="main-container">
+    
+            <section id="about">
+                <h2 class="section-title w-normal">About Me</h2>
                 <p class="text-contents w-thin">
-                    I have been working as a Fullstack Web Developer. In this role, I work on the back-end using Java and the front-end using React.js to develop a homebanking application for one of the largest banks in Argentina. My responsibilities include developing and implementing new features, as well as fixing bugs. Our team follow an agile methodology, which allows us to be flexible and adaptable to changes in the project requirements.
+                    As a self-taught and curious individual, I am deeply passionate about technology and constantly seek to expand my knowledge of software and hardware. I have professional experience in Java and React, I am looking forward to continue growing as a developer and tackling new challenges in the field.
                 </p>
-            </article>
-        </section>
-
-    </main>
+            </section>
+    
+            <section id="tech-stack">
+                <h2 class="section-title w-normal">Tech Stack</h2>
+                <div class="tech-stack-list">
+                    <ul>
+                        <li>Java</li>
+                        <li>Javascript + Node.js</li>
+                        <li>React.js</li>
+                        <li>SQL</li>
+                        <li>Git</li>
+                        <li>Docker - Docker Compose</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Typescript</li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section id="work-experience">
+                <h2 class="section-title w-normal">Work experience</h2>
+                <article>
+                    <h3 class="job-title w-normal"><a href="https://www.technisys.com/">Technisys</a><span class="note">(since 2021)</span></h3>
+                    <p class="text-contents w-thin">
+                        I have been working as a Fullstack Web Developer. In this role, I work on the back-end using Java and the front-end using React.js to develop a homebanking application for one of the largest banks in Argentina. My responsibilities include developing and implementing new features, as well as fixing bugs. Our team follow an agile methodology, which allows us to be flexible and adaptable to changes in the project requirements.
+                    </p>
+                </article>
+            </section>
+    
+        </main>
+    
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/three@0.131.1/build/three.min.js"></script>
+    <script src="background.js" type="module"></script>
 </body>
 </html>

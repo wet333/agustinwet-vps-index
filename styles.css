@@ -6,9 +6,28 @@ html {
 }
 
 body {
+    position: relative;
     font-size: 1.1rem;
     color: #ededed;
     background: #161616;
+    margin: 0;
+    overflow: hidden;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#page-contents {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: #0000008a;
 }
 
 header {
