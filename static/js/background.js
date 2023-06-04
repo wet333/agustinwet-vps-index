@@ -1,5 +1,5 @@
-import { MousePosition } from "./js/MousePosition.js";
-import { randomColorWithProbability } from "./js/getRandomColors.js";
+import { MousePosition } from "./MousePosition.js";
+import { randomColorWithProbability } from "./getRandomColors.js";
 
 // Create a scene
 var scene = new THREE.Scene();

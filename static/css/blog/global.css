@@ -5,11 +5,6 @@ html {
 	font-family: "Open sans", sans-serif;
 }
 
-body {
-    margin: auto;
-    max-width: 900px;
-}
-
 article, div, p {
-    padding: 0 1rem;
+    margin-top: 1rem;
 }

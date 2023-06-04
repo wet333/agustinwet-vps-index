@@ -1,0 +1,23 @@
+/* Layout styles, dont includes layout organization and responsiveness */
+
+/* Header styles */
+
+.header__nav {
+    padding: 1rem;
+}
+
+.header__link-list {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Footer styles */
+
+.footer {
+    margin-top: auto;
+    padding: 6rem 0 3rem 0;
+    text-align: center;
+}
